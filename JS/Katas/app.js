@@ -8,16 +8,16 @@ function teamFinalScore(x) {
 */
 
 function splitOnDoubleLetter(word) {
-  let splitWord = [];
+  let wordArray = [];
   for (let i = 0; i < word.length - 1; i++) {
     if (word[i] === word[i + 1]) {
-      splitWord.push(word.slice(0, i + 1));
+      wordArray.push(word.slice(0, i + 1));
       word = word.slice(i + 1);
       i = -1;
     }
   }
-  if (splitWord.length > 0) {
-    splitWord.push(word);
+  if (wordArray.length > 0) {
+    wordArray.push(word);
   }
-  return splitWord;
+  return wordArray;
 }
