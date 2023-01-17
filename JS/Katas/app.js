@@ -1,3 +1,16 @@
+const inputArray = document.getElementById("input-array");
+const btnComputeArray = document.getElementById("btn-compute-array");
+const hArrayLength = document.getElementById("h7-array-length");
+
+function calculateArray() {
+  let inputField = document.getElementById("input-array");
+  let inputValue = inputField.value;
+  hArrayLength.innerText = inputValue.flat(Infinity).length;
+}
+
+const arrayLenght = (array) => array.flat(Infinity).length;
+
+btnComputeArray.addEventListener("click", calculateArray);
 /*
 function teamFinalScore(x) {
   let twoPointer = 2 * 3;
@@ -7,6 +20,7 @@ function teamFinalScore(x) {
 }
 */
 
+/*
 function splitOnDoubleLetter(word) {
   let wordArray = [];
   for (let i = 0; i < word.length - 1; i++) {
@@ -21,3 +35,4 @@ function splitOnDoubleLetter(word) {
   }
   return wordArray;
 }
+*/
