@@ -214,6 +214,7 @@ function buyComputer() {
   }
 }
 
+//Event listeners that pick up on interactions from the website
 btnBuyComp.addEventListener("click", buyComputer);
 btnBankPay.addEventListener("click", putPayInBank);
 btnGetLoan.addEventListener("click", getLoan);
