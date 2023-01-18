@@ -8,8 +8,8 @@ A repo where i hopefully wil manage to upload and deliver all my projects
 
 ---
 
-![](C:\Users\TVetle\AppData\Roaming\marktext\images\2023-01-18-07-54-01-image.png)
+![](C:\Users\TVetle\Documents\Accelerate%20Assignments\Noroff-Accelerate\img\Screenshot%202023-01-18%20082116.png)
 
-[Take me to the assignment!](https://github.com/Tartarpaste/Noroff-Accelerate/tree/main/JS/KomputerStore))
+[Take me to the assignment!](https://github.com/Tartarpaste/Noroff-Accelerate/tree/main/JS/KomputerStore)
 
 ---
