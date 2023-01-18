@@ -8,7 +8,7 @@ A repo where i hopefully wil manage to upload and deliver all my projects
 
 ---
 
-![](Noroff-Accelerate\img\komputer)
+![](https://github.com/Tartarpaste/Noroff-Accelerate/blob/main/img/komputer.png)
 
 [Take me to the assignment!](https://github.com/Tartarpaste/Noroff-Accelerate/tree/main/JS/KomputerStore)
 
