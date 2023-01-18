@@ -8,16 +8,16 @@ This first assignment was to be made entirely in vanilla JavaScript. The commits
 
 To run this locally from Visual Studio code you need the live server extension:
 
- ![](https://github.com/Tartarpaste/Noroff-Accelerate/tree/main/img/liverserverinstall.png)
+ ![](https://github.com/Tartarpaste/Noroff-Accelerate/blob/main/img/liverserverinstall.png)
 
 And then right click the index.html to run the website:
 
-![](https://github.com/Tartarpaste/Noroff-Accelerate/tree/main/img/runkomputerstore.png)
+![](https://github.com/Tartarpaste/Noroff-Accelerate/blob/main/img/runkomputerstore.png)
 
 ---
 
 You should then be greeted by something like this:
 
-![](https://github.com/Tartarpaste/Noroff-Accelerate/tree/main/img/komputer2.png)
+![](https://github.com/Tartarpaste/Noroff-Accelerate/blob/main/img/komputer2.png)
 
 That's it i think. Have fun!
