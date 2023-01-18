@@ -8,7 +8,7 @@ A repo where i hopefully wil manage to upload and deliver all my projects
 
 ---
 
-![](C:\Users\TVetle\Documents\Accelerate%20Assignments\Noroff-Accelerate\img\Screenshot%202023-01-18%20082116.png)
+![](Noroff-Accelerate\img\komputer)
 
 [Take me to the assignment!](https://github.com/Tartarpaste/Noroff-Accelerate/tree/main/JS/KomputerStore)
 
