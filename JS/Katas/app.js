@@ -1,3 +1,26 @@
+function correctTitle1(title) {
+  title = title.replace(",", ", ").replace(/\s+/g, " ");
+  let excludedWord = ["and", "the", "of", "in"];
+  let titleArray = title.split(" ");
+  let newTitleArray = [];
+  for (let i = 0; i < titleArray.length; i++) {
+    let word = titleArray[i];
+    let newWord = "";
+    if (excludedWord.includes(word.toLowerCase())) {
+      newWord = word.toLowerCase();
+    } else {
+      newWord = word[0].toUpperCase() + word.slice(1).toLowerCase();
+    }
+    newTitleArray.push(newWord);
+  }
+  let newTitle = newTitleArray.join(" ");
+  if (newTitle[newTitle.length - 1] !== ".") {
+    newTitle = newTitle + ".";
+  }
+  return newTitle;
+}
+
+/*
 const inputArray1 = document.getElementById("input-array");
 const inputArray2 = document.getElementById("input-array-2");
 const btnComputeArray1 = document.getElementById("btn-compute-array");
@@ -23,6 +46,8 @@ hArrayLength2.innerText = count;
 
 btnComputeArray2.addEventListener("click", arrayLenght);
 btnComputeArray1.addEventListener("click", countBoomerangs);
+*/
+
 /*
 const inputArray = document.getElementById("input-array");
 const btnComputeArray = document.getElementById("btn-compute-array");
