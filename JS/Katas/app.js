@@ -1,4 +1,15 @@
-function correctTitle1(title) {
+function getDays() {
+  const date1 = new Date("January 12, 1997");
+  const date2 = new Date("January 23, 2086");
+  let date1Ms = date1.getTime();
+  let date2Ms = date2.getTime();
+
+  let differenceInMs = date2Ms - date1Ms;
+
+  return Math.round(differenceInMs / 1000 / 60 / 60 / 24);
+}
+
+/* function correctTitle1(title) {
   title = title.replace(",", ", ").replace(/\s+/g, " ");
   let excludedWord = ["and", "the", "of", "in"];
   let titleArray = title.split(" ");
@@ -18,7 +29,7 @@ function correctTitle1(title) {
     newTitle = newTitle + ".";
   }
   return newTitle;
-}
+} */
 
 /*
 const inputArray1 = document.getElementById("input-array");
