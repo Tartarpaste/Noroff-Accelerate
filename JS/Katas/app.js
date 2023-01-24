@@ -1,4 +1,55 @@
-function getDays() {
+const swapCards = (n1, n2) => {
+  const n1Array = String(n1)
+    .split("")
+    .map((n1) => {
+      return Number(n1);
+    });
+  const n2Array = String(n2)
+    .split("")
+    .map((n2) => {
+      return Number(n2);
+    });
+
+  const paulLowestNum = Math.min(...n1Array);
+  const indexOfPaulLowestNum = n1Array.indexOf(paulLowestNum);
+
+  if (n1Array[0] === n1Array[1]) {
+    let paulTens = n1Array[0];
+    let opponentTens = n2Array[0];
+    n1Array[0] = opponentTens;
+    n2Array[0] = paulTens;
+  } else {
+    let paulNum = n1Array[indexOfPaulLowestNum];
+    let opponentTens = n2Array[0];
+    n1Array[indexOfPaulLowestNum] = opponentTens;
+    n2Array[0] = paulNum;
+  }
+
+  paulFinalNum = n1Array.join("");
+  opponentFinalNum = n2Array.join("");
+
+  console.log(paulFinalNum);
+  console.log(opponentFinalNum);
+
+  matchResult = false;
+
+  if (paulFinalNum < opponentFinalNum) {
+    matchResult = false;
+  } else {
+    matchResult = true;
+  }
+
+  return matchResult;
+};
+
+const cardMatch = () => {
+  paulHand = Math.floor(Math.random() * 99) + 1;
+  opponentHand = Math.floor(Math.random() * 99) + 1;
+
+  return swapCards(paulHand, opponentHand);
+};
+
+/* function getDays() {
   const date1 = new Date("January 12, 1997");
   const date2 = new Date("January 23, 2086");
   let date1Ms = date1.getTime();
@@ -7,7 +58,7 @@ function getDays() {
   let differenceInMs = date2Ms - date1Ms;
 
   return Math.round(differenceInMs / 1000 / 60 / 60 / 24);
-}
+} */
 
 /* function correctTitle1(title) {
   title = title.replace(",", ", ").replace(/\s+/g, " ");
