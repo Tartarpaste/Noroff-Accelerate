@@ -1,4 +1,17 @@
-const swapCards = (n1, n2) => {
+/* const combinations = (input) => {
+  let array = input.toString();
+  array.replace(/\b0+/g, ""); // does not work
+  let permutaions = array[0];
+
+  for (let i = 0; i < array.length - 1; i++) {
+    permutaions = permutaions * array[i + 1];
+  }
+
+  return permutaions;
+};
+ */
+
+/* const swapCards = (n1, n2) => {
   const n1Array = String(n1)
     .split("")
     .map((n1) => {
@@ -40,7 +53,7 @@ const swapCards = (n1, n2) => {
   }
 
   return matchResult;
-};
+}; */
 
 const cardMatch = () => {
   paulHand = Math.floor(Math.random() * 99) + 1;
